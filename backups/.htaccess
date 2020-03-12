@@ -1,0 +1,7 @@
+# disable directory browsing
+#Options -Indexes
+
+AuthType Basic
+AuthName "Protected Zone"
+AuthUserFile "".htpasswd"
+Require valid-user
